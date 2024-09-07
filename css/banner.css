@@ -1,0 +1,205 @@
+.banner{
+	height: 800px;
+	background-image: url(../img/banner.gif);
+	z-index: 99;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.banner .w1{
+	width: 1280px;
+	margin: 0 auto;
+	height: 800px;
+}
+.qisheng{
+	position: relative;
+	right: 40px;
+	top: 100px;
+}
+.qisheng img{
+	display: block;
+	width: 200px;
+	height: 200px;
+}
+.banner .information{
+	width: 360px;
+	height: 120px;
+	position: relative;
+	top: 660px;
+	left: 20px;
+	font-size: 18px;
+	color: #ffffff;
+	line-height: 30px;
+}
+.banner .information a{
+	text-decoration: underline;
+}
+.banner .information a:nth-child(1){
+	margin-right: 20px;
+}
+.banner .arrow{
+	width: 30px;
+	height: 60px;
+	position: relative;
+	top: 730px;
+	left: 290px;
+}
+.banner .arrow1{
+	width: 30px;
+	height: 20px;
+	background-image: url(../img/arrow.png);
+	background-repeat: no-repeat;
+	animation: arrow-run1 2s linear infinite;
+}
+.banner .arrow2{
+	width: 30px;
+	height: 20px;
+	background-image: url(../img/arrow.png);
+	background-repeat: no-repeat;
+	animation: arrow-run2 2s linear infinite;
+}
+.banner .arrow3{
+	width: 30px;
+	height: 20px;
+	background-image: url(../img/arrow.png);
+	background-repeat: no-repeat;
+	animation: arrow-run3 2s linear infinite;
+}
+@keyframes arrow-run1{
+	0%{
+		opacity: 0;
+	}
+	25%{
+		opacity: 0.33;
+	}
+	50%{
+		opacity: 0.66;
+	}
+	75%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+@keyframes arrow-run2{
+	0%{
+		opacity: 0.33;
+	}
+	25%{
+		opacity: 0.66;
+	}
+	50%{
+		opacity: 1;
+	}
+	75%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 0.33;
+	}
+}
+@keyframes arrow-run3{
+	0%{
+		opacity: 0.66;
+	}
+	25%{
+		opacity: 1;
+	}
+	50%{
+		opacity: 0;
+	}
+	75%{
+		opacity: 0.33;
+	}
+	100%{
+		opacity: 0.66;
+	}
+}
+.cadpa{
+	width: 100px;
+	height: 130px;
+	position: relative;
+	right: -160px;
+	top: 660px;
+}
+.cadpa img{
+	display: block;
+	width: 100px;
+	height: 130px;
+}
+#open-modal{
+	border: none;
+	background: none;
+}
+/* 弹窗背景 */
+.modal-background {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  /* justify-content: center;横轴上居中排列。 */
+  justify-content: center;
+  /* align-items: center;纵轴上元素位于容器的中心。 */
+  align-items: center;
+}
+/* 弹窗容器 */
+.modal-content {
+  background: none;
+}
+/* 图片样式 */
+.modal-content img {
+  width: 800px;
+  height: 600px;
+}
+.icon{
+	width: 560px;
+	height: 100px;
+	position: relative;
+	top: 600px;
+	left: 10px;
+}
+.icon>.fl{
+	padding-right: 10px;
+}
+.icon>.fl:nth-child(4){
+	padding-right: 0;
+}
+.icon>.fl:nth-child(1) img{
+	display: block;
+	width: 100px;
+	height: 100px;
+}
+.icon>.fl:nth-child(2) img{
+	display: block;
+	width: 100px;
+	height: 100px;
+}
+.icon>.fl:nth-child(4) img{
+	display: block;
+	width: 100px;
+	height: 100px;
+}
+.icon>.fl:nth-child(3){
+	display: block;
+	width: 230px;
+	height: 100px;
+}
+.icon>.fl:nth-child(3) img{
+	display: block;
+	width: 110px;
+	height: 45px;
+}
+.icon>.fl:nth-child(3)>.fl:nth-child(1){
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+.icon>.fl:nth-child(3)>.fl:nth-child(2){
+	padding-bottom: 10px;
+}
+.icon>.fl:nth-child(3)>.fl:nth-child(3){
+	padding-right: 10px;
+}

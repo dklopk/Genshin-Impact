@@ -1,0 +1,304 @@
+.citys{
+	height: 1000px;
+	width: 100%;
+}
+.citys1{
+	height: 200px;
+	width: 100%;
+	overflow: hidden;
+}
+.citys1 .city{
+	height: 200px;
+	width: 100%;
+	background-image: url(../img/city1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.city1{
+	height: 200px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.city1-main{
+	width: 1280px;
+	height: 200px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.city1-main h1{
+	width: 100px;
+	padding-bottom: 20px;
+	position: relative;
+	left: 600px;
+	top: 80px;
+	font-weight: 300;
+	color: #ffffff;
+}
+.city1-main h1::after{
+	content: "";
+	width: 200px;
+	height: 20px;
+	background-image: url(../img/city1.2.png);
+	background-repeat: no-repeat;
+	background-origin: padding-box;
+	position: absolute;
+	top: 40px;
+	left: -50px;
+	background-size: 200px 20px;
+}
+.city1-main img{
+	width: 800px;
+	height: 200px;
+	position: relative;
+	top: -60px;
+	left: 500px;
+	display: none;
+}
+.citys1 .city:hover{
+	transform: scale(1.1);
+	transition: transform 0.2s linear;
+}
+.city1-main:hover img{
+	display: block;
+}
+.citys2{
+	height: 200px;
+	width: 100%;
+	overflow: hidden;
+}
+.citys2 .city{
+	height: 200px;
+	width: 100%;
+	background-image: url(../img/city2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.city2{
+	height: 200px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.city2-main{
+	width: 1280px;
+	height: 200px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.city2-main h1{
+	width: 100px;
+	padding-bottom: 20px;
+	position: relative;
+	left: 600px;
+	top: 80px;
+	font-weight: 300;
+	color: #ffffff;
+}
+.city2-main h1::after{
+	content: "";
+	width: 200px;
+	height: 20px;
+	background-image: url(../img/city1.2.png);
+	background-repeat: no-repeat;
+	background-origin: padding-box;
+	position: absolute;
+	top: 40px;
+	left: -50px;
+	background-size: 200px 20px;
+}
+.city2-main img{
+	width: 800px;
+	height: 200px;
+	position: relative;
+	top: -60px;
+	left: 500px;
+	display: none;
+}
+.citys2 .city:hover{
+	transform: scale(1.1);
+	transition: transform 0.2s linear;
+}
+.city2-main:hover img{
+	display: block;
+}
+.citys3{
+	height: 200px;
+	width: 100%;
+	overflow: hidden;
+}
+.citys3 .city{
+	height: 200px;
+	width: 100%;
+	background-image: url(../img/city3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.city3{
+	height: 200px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.city3-main{
+	width: 1280px;
+	height: 200px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.city3-main h1{
+	width: 100px;
+	padding-bottom: 20px;
+	position: relative;
+	left: 600px;
+	top: 80px;
+	font-weight: 300;
+	color: #ffffff;
+}
+.city3-main h1::after{
+	content: "";
+	width: 200px;
+	height: 20px;
+	background-image: url(../img/city1.2.png);
+	background-repeat: no-repeat;
+	background-origin: padding-box;
+	position: absolute;
+	top: 40px;
+	left: -50px;
+	background-size: 200px 20px;
+}
+.city3-main img{
+	width: 800px;
+	height: 200px;
+	position: relative;
+	top: -60px;
+	left: 500px;
+	display: none;
+}
+.citys3 .city:hover{
+	transform: scale(1.1);
+	transition: transform 0.2s linear;
+}
+.city3-main:hover img{
+	display: block;
+}
+.citys4{
+	height: 200px;
+	width: 100%;
+	overflow: hidden;
+}
+.citys4 .city{
+	height: 200px;
+	width: 100%;
+	background-image: url(../img/city4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.city4{
+	height: 200px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.city4-main{
+	width: 1280px;
+	height: 200px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.city4-main h1{
+	width: 100px;
+	padding-bottom: 20px;
+	position: relative;
+	left: 600px;
+	top: 80px;
+	font-weight: 300;
+	color: #ffffff;
+}
+.city4-main h1::after{
+	content: "";
+	width: 200px;
+	height: 20px;
+	background-image: url(../img/city1.2.png);
+	background-repeat: no-repeat;
+	background-origin: padding-box;
+	position: absolute;
+	top: 40px;
+	left: -50px;
+	background-size: 200px 20px;
+}
+.city4-main img{
+	width: 800px;
+	height: 200px;
+	position: relative;
+	top: -60px;
+	left: 500px;
+	display: none;
+}
+.citys4 .city:hover{
+	transform: scale(1.1);
+	transition: transform 0.2s linear;
+}
+.city4-main:hover img{
+	display: block;
+}
+.citys5{
+	height: 200px;
+	width: 100%;
+	overflow: hidden;
+}
+.citys5 .city{
+	height: 200px;
+	width: 100%;
+	background-image: url(../img/city5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.city5{
+	height: 200px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.city5-main{
+	width: 1280px;
+	height: 200px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.city5-main h1{
+	width: 100px;
+	padding-bottom: 20px;
+	position: relative;
+	left: 600px;
+	top: 80px;
+	font-weight: 300;
+	color: #ffffff;
+}
+.city5-main h1::after{
+	content: "";
+	width: 200px;
+	height: 20px;
+	background-image: url(../img/city1.2.png);
+	background-repeat: no-repeat;
+	background-origin: padding-box;
+	position: absolute;
+	top: 40px;
+	left: -50px;
+	background-size: 200px 20px;
+}
+.city5-main img{
+	width: 800px;
+	height: 200px;
+	position: relative;
+	top: -60px;
+	left: 500px;
+	display: none;
+}
+.citys5 .city:hover{
+	transform: scale(1.1);
+	transition: transform 0.2s linear;
+}
+.city5-main:hover img{
+	display: block;
+}
